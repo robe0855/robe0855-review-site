@@ -39,7 +39,7 @@
     },
     created() {
       axios
-        .get('https://your-pantheon-site.com/wp-json/wp/v2/review')
+        .get('https://dev-reviewmattcms.pantheonsite.io/')
         .then((response) => {
           this.reviews = response.data;
         })
