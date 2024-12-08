@@ -39,7 +39,7 @@
     },
     created() {
       axios
-        .get('https://dev-reviewmattcms.pantheonsite.io/')
+        .get('https://live-reviewmattcms.pantheonsite.io/')
         .then((response) => {
           this.reviews = response.data;
         })

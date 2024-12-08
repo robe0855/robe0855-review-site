@@ -11,7 +11,7 @@ app.use(router)
 
 app.mount('#app')
 
-fetch('https://dev-reviewmattcms.pantheonsite.io/')
+fetch('https://live-reviewmattcms.pantheonsite.io/')
   .then(response => response.json())
   .then(data => console.log(data))
   .catch(error => console.error('Error fetching data:', error));
